@@ -1,0 +1,12 @@
+# DocuMind dependencies.
+# NOTE: sentence-transformers pulls in PyTorch. On a slow connection the
+# default PyPI torch wheel (~540 MB, CUDA) can fail to download — install
+# the CPU-only wheel first, then these:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+streamlit==1.40.2
+pypdf==5.1.0
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0
+openai==1.59.5
+numpy==2.2.1
+reportlab==4.2.5

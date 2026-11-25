@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# DocuMind
+.documind_cache/
+*.faiss
+data/*.pdf
+!data/sample.pdf
+.env
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
